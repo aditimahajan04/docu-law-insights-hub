@@ -74,11 +74,12 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 
 ## CI/CD Status
 
+## CI/CD Status
+
 [![Frontend CI](https://github.com/aditimahajan04/docu-law-insights-hub/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/aditimahajan04/docu-law-insights-hub/actions/workflows/frontend-ci.yml)
 
 This project uses GitHub Actions for continuous integration. Every push to the main branch and pull request triggers:
 - Dependency installation
 - Linting check
-- Test execution 
 - Build process
 - Deployment to GitHub Pages
