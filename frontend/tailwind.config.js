@@ -72,7 +72,6 @@ module.exports = {
         },
         navy: '#0A2463',
         lightblue: '#3E92CC',
-        gray: '#D8D8D8',
         gold: '#FFD700',
       },
       borderRadius: {
@@ -114,4 +113,4 @@ module.exports = {
     }
   },
   plugins: [require("tailwindcss-animate")],
-};
+}; 

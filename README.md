@@ -1,3 +1,117 @@
+# DocuLaw Insights Hub
+
+A modern legal document management system with secure storage, retrieval, and management capabilities.
+
+## Project Structure
+
+```
+docu-law-insights-hub/
+├── frontend/                 # React TypeScript frontend
+│   ├── src/
+│   │   ├── components/      # Reusable UI components
+│   │   ├── pages/          # Page components
+│   │   ├── services/       # API services
+│   │   ├── utils/          # Utility functions
+│   │   ├── hooks/          # Custom React hooks
+│   │   ├── contexts/       # React contexts
+│   │   ├── types/          # TypeScript type definitions
+│   │   ├── assets/         # Static assets
+│   │   └── styles/         # Global styles
+│   └── public/             # Public assets
+│
+├── backend/                 # Node.js Express backend
+│   ├── src/
+│   │   ├── controllers/    # Route controllers
+│   │   ├── models/         # Database models
+│   │   ├── routes/         # API routes
+│   │   ├── middleware/     # Custom middleware
+│   │   ├── services/       # Business logic
+│   │   ├── utils/          # Utility functions
+│   │   └── config/         # Configuration files
+│   └── tests/              # Backend tests
+│
+└── infrastructure/         # Infrastructure as Code
+    ├── docker/            # Docker configurations
+    ├── kubernetes/        # Kubernetes manifests
+    └── terraform/         # Terraform configurations
+```
+
+## Features
+
+- Secure document storage and management
+- User authentication and authorization
+- Document version control
+- Search functionality
+- Audit logging
+- Role-based access control
+- Document encryption
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- MongoDB
+- Docker (optional)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/docu-law-insights-hub.git
+cd docu-law-insights-hub
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+```bash
+# Frontend (.env)
+VITE_API_URL=http://localhost:3000/api
+
+# Backend (.env)
+PORT=3000
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+```
+
+4. Start the development servers:
+```bash
+npm run dev
+```
+
+### Development
+
+- Frontend: http://localhost:5173
+- Backend: http://localhost:3000
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+### Running in Production
+
+```bash
+npm start
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 # Welcome to your Lovable project
 
 ## Project info
